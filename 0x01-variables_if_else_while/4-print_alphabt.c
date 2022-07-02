@@ -1,18 +1,16 @@
 #include <stdio.h>
-c
+
 /**
- * main - Entry poimt
+ * main - Entry point
  *
  * Return: Always 0
  **/
 int main(void)
 {
-	char letter;
+	int num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
-	putchar('\n');
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+	printf("\n");
 	return (0);
 }
