@@ -1,13 +1,15 @@
-nclude "main.h"
+#include "main.h"
+
 /**
- * _isupper - checks for uppercase character
- * @c: value to be checked.
- * Return: 1 if c is uppercase.
+ * mul - multiplies two integers
+ *
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: always 0
  */
-int _isupper(int c)
+
+int mul(int a, int b)
 {
-	if (c > 64 && c < 91)
-		return (1);
-	else
-		return (0);
+	return (a * b);
 }
