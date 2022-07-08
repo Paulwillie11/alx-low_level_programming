@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * mul - multiplies two integers
+ * _isupper - uppercase letters
+ * @c: character to check
  *
- * @a: first integer
- * @b: second integer
- *
- * Return: always 0
+ * Return: 0 or 1
  */
+int _isupper(int c)
 
-int mul(int a, int b)
 {
-	return (a * b);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
+
 }
