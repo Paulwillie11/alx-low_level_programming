@@ -1,10 +1,17 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * _isupper - checks if input is an uppercase letter in ASCI
- * @c: integer
- * Return: 1 if true, 0 if false
- */
-int _isupper(int c)
+ * _isdigit - checkd for digit
+ *
+ * @c: integer to be checked
+ *
+ * Return: 1 if digit, 0 if otherwise
+  */
+
+int _isdigit(int c)
 {
-return (c >= 65 && c <= 90);
+	if (c > 47 && c < 58)
+		return (1);
+	else
+		return (0);
 }
