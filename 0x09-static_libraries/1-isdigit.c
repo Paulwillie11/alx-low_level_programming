@@ -1,10 +1,17 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * _isdigit - checks if int c is a digit
- * @c: integer
- * Return: 1 if true or 2 if false
- */
+ * _isdigit - checkd for digit
+ *
+ * @c: integer to be checked
+ *
+ * Return: 1 if digit, 0 if otherwise
+  */
+
 int _isdigit(int c)
 {
-return (c >= 48 && c < 58);
+	if (c > 47 && c < 58)
+		return (1);
+	else
+		return (0);
 }
