@@ -1,1 +1,1 @@
-static or dynamic libraries
+static and dynamic libraries
